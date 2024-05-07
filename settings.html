@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diabet Predict - Settings</title>
+  <link href="assets/css/preloader.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="modules/materialize/materialize.min.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="modules/fonts/mdi/materialdesignicons.min.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="modules/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen" id="main-style" />
+</head>
+<body>
+    <div class="preloader-background">
+      <div class="preloader-wrapper">
+        <div class="configure-border-1">  
+        </div>  
+        <div class="configure-border-2">
+        </div> 
+      </div>
+    </div>
+  
+    <nav class="fix_topscroll logo_on_fixed  topbar ">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="#" class="brand-logo" >Settings</a>    
+</nav>
+
+
+<div class="pagehead-bg primary-bg" >
+</div> 
+<div class="container full subpage">
+  <div class="section">
+  <ul class="subpages collection z-depth-1">
+  <li class="collection-img">
+      <img alt="image" class="responsive-img z-depth-1" src="assets/images/settings.jpg">
+  </a></li>
+  
+  <div class="container">
+  </div>
+  
+          
+
+    
+      <li class="collection-item">
+        <a href="#" class="waves-effect appsettings" data-type="site_mode" data-value="light" onclick="toggleMode(this)">
+          <i class="mdi mdi-checkbox-outline"></i>
+          <span>Select interface</span>
+        </a>
+        
+        <script>
+          function toggleMode(element) {
+            var mode = element.getAttribute("data-value");
+            if (mode === "light") {
+              element.setAttribute("data-value", "dark");
+              element.querySelector('span').textContent = "Dark Mode Activated";
+              document.body.classList.add("dark-theme");
+            } else {
+              element.setAttribute("data-value", "light");
+              element.querySelector('span').textContent = "Light Mode Activated";
+              document.body.classList.remove("dark-theme");
+            }
+          }
+        </script>        
+  
+                                      <a href="https://play.google.com/store/apps/dev?id=5171664155256985422" class="waves-effect"><i class="mdi mdi-star-face "></i><span>Rate us</span>
+
+    </ul>
+    <div class="marquee-container">
+      <div class="marquee-content">
+        <iframe src="https://www.instagram.com/p/C37xPEyPmW-/embed/" width="350" height="305" frameborder="0" scrolling="no" href="intent://https://www.instagram.com/beat.diabetes/" allowtransparency="true"></iframe>
+      </div>
+    </div>
+        </div>
+        </div>
+
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+
+
+</div>
+
+<div class="footer-menu circular">
+  <ul>
+    <li >
+    <a href="explore.html" >      <i class="mdi mdi-search-web"></i>
+    <span>Explore</span>
+    </a>    </li>
+      <li >
+    <a href="tips.html" >      <i class="mdi mdi-marker-check"></i>
+    <span>Tips</span>
+    </a>    </li>
+      <li >
+    <a href="home.html" >      <i class="mdi mdi-home"></i>
+    <span>Home</span>
+    </a>    </li>
+      <li >
+    <a href="partners.html" >      <i class="mdi mdi-account-group"></i>
+    <span>Partners</span>
+    </a>    </li>
+      <li >
+    <a href="settings.html" >      <i class="mdi mdi-settings"></i>
+    <span>Settings</span>
+    </a>    </li>
+    
+</ul>
+</div>
+
+<script src="modules/jquery/jquery-2.2.4.min.js"></script>
+<script src="modules/materialize/materialize.js"></script>
+<script src="modules/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="assets/js/variables.js"></script>
+<script src="modules/app/settings.js"></script>
+<script src="assets/js/preloader.js"></script>
+</body>
+
+</html>
